@@ -1,2 +1,2 @@
-# serverless-portfolio
-My serverless aws portfolio
+# Evan Piercy's portfolio
+My serverless aws portfolio. ReactJS
