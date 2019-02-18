@@ -1,4 +1,11 @@
 import React from 'react';
+import Enzyme from 'enzyme';
+import { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({
+  adapter: new Adapter()
+});
 
 class ExampleWork extends React.Component {
   render() {
@@ -38,4 +45,6 @@ class ExampleWorkBubble extends React.Component{
     )
   }
 }
+
 export default ExampleWork;
+export { ExampleWorkBubble };
